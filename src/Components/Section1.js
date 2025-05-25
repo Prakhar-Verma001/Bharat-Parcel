@@ -11,7 +11,7 @@ const Section1 = () => {
   return (
     <>
         <Box bgcolor={'#0155A5'}>
-            <Grid container >
+            <Grid container>
               <Grid item lg={5} xs={12} p={{xl: 8, lg: 6, md: 4, xs: 3}}>
                   <Typography gutterBottom variant='h2' color={'white'} fontWeight={700}>
                     Trusted by Top companies

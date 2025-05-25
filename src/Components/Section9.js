@@ -11,17 +11,17 @@ import tel from '../Assests/Images/Group 63tel.png'
 const Section9 = () => {
   return (
     <>
-        <Box bgcolor={'#0155A5'} p={{lg:8, md:6, xs:2}}>
+        <Box bgcolor={'#0155A5'} p={{lg:6, xs:2}}>
             <Box>
                 <Grid container>
                     <Grid item lg={3} md={6} xs={12} p={2} px={3}>
-                    <Stack direction={'column'} spacing={4}>
+                        <Stack direction={'column'} spacing={4}>
                           <Box>
-                          <Link href='#' underline='none'>
-                              <Typography variant='h4' color={'white'} fontWeight={700}>
-                                  Logo
-                              </Typography>
-                          </Link>
+                            <Link href='#' underline='none'>
+                                <Typography variant='h4' color={'white'} fontWeight={700}>
+                                    Logo
+                                </Typography>
+                            </Link>
                           </Box>
                           <Stack direction={'column'} spacing={2}>
                             <Typography color={'white'} variant='body1' fontWeight={600} 
@@ -134,6 +134,9 @@ const Section9 = () => {
                         </Stack>
                     </Grid>
                 </Grid>
+                <Box p={2} textAlign={{lg:'left', md:'center'}}>
+                    <Typography variant='body2' color={'#CEDF9F'}>@2021, Made WITH ❤️ by <Typography variant='span' color={'white'} fontFamily={600}>Prakhar Verma</Typography> for a better web</Typography>
+                </Box>
             </Box>
         </Box>
     </>
